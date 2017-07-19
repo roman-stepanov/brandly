@@ -7,8 +7,158 @@
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/style.min.css">
   </head>
-  <body>
-
+  <body class="nojs">
+    <header class="page-header">
+      <div class="page-header__container">
+        <div class="page-header__logo">
+          <img src="img/logo.png" width="126" height="34" alt="BRANDly">
+        </div>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Home</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Shop</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Brands</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Blog</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">About</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="slider">
+        <div class="slider__slides">
+          <div class="slide">
+            <p class="slide__collection">Spring / Summer Collection</p>
+            <p class="slide__discount">Up to 60% discount on new arrivals</p>
+            <p class="slide__desc">Trending new items, from creators around the world</p>
+            <div class="slide__btn-wrapper">
+              <a class="btn" href="#" >Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="slider__pagination">
+          <span class="slider__dot"></span>
+          <span class="slider__dot"></span>
+          <span class="slider__dot"></span>
+          <span class="slider__dot"></span>
+        </div>
+      </div>
+      <section class="latest-products">
+        <div class="latest-products__container">
+          <h2 class="content-header">Latest Products</h2>
+          <div class="latest-products__catalog">
+            <article class="catalog-item  catalog-item--men">
+              <h3 class="catalog-item__title"><a class="catalog-item__link" href="#">Men</a></h3>
+            </article>
+            <article class="catalog-item  catalog-item--woman">
+              <h3 class="catalog-item__title"><a class="catalog-item__link" href="#">Woman</a></h3>
+            </article>
+            <article class="catalog-item  catalog-item--watches">
+              <h3 class="catalog-item__title"><a class="catalog-item__link" href="#">Watches</a></h3>
+            </article>
+          </div>
+          <div class="latest-products__banners">
+            <article class="baner  banner--autumn">
+              <h3 class="banner__title"><a href="#">40% Off New Autumn Collection</a></h3>
+            </article>
+            <article class="baner  banner--spirit">
+              <h3 class="banner__title  banner__title--uppercase"><a href="#">Mega sale on items from Spirit collection</a></h3>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="trending">
+        <div class="trending__container">
+          <h2 class="content-header">Trending Items</h2>
+          <div class="trending__items">
+            <article class="trending-item">
+              <img class="trending-item__img" src="img/nathan-stewart-jacket.jpg" width="570" height="570" alt="Nathan Stewart Jacket">
+              <div class="trending-item__detail">
+                <header class="trending-item__header">
+                  <h3 class="trending-item__title">Nathan Strewart Jacket</h3>
+                  <span class="trending-item__collection">Summer/Autumn Collection</span>
+                </header>
+                <p class="trending-item__about">
+                  Classic Nathan Stewart Jacket from his latest collection. This item is loved by many just because of it’s simle style. Simple lines,lovely texture,it suits almost everybody. It comes in six different colors,and all sizes.
+                </p>
+                <p class="trending-item__tip">
+                  <span>Fashion Tip:</span> With this jacket,Nathan Stewart sunglasses go hand in hand!
+                </p>
+                <form class="trending-item__form" action="#" method="post">
+                  <input id="size-m" type="radio" name="size" value="M">
+                  <label for="size-m">M</label>
+                  <input id="size-l" type="radio" name="size" value="L" checked>
+                  <label for="size-l">L</label>
+                  <input id="size-xl" type="radio" name="size" value="XL">
+                  <label for="size-xl">XL</label>
+                  <input id="size-xxl" type="radio" name="size" value="XXL">
+                  <label for="size-xxl">XXL</label>
+                  <button class="btn" type="submit" name="shop-now">Shop Now</button>
+                  <a class="btn" href="#">Size Guide</a>
+                </form>
+              </div>
+            </article>
+          </div>
+          <div class="trending__pagination">
+            <span class="trending__dot"></span>
+            <span class="trending__dot"></span>
+            <span class="trending__dot"></span>
+            <span class="trending__dot"></span>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="blog__container">
+          <h2 class="content-header">From The Blog</h2>
+          <div class="blog__posts">
+            <article class="blog-post">
+              <img class="blog-post__img" src="img/blog1.jpg" width="570" height="400" alt="German fashion wizards">
+              <h3 class="blog-post__title"><a href="#">German fashion wizards</a></h3>
+              <div class="blog-post__author">
+                By <a href="#">James Steed</a> | <a href="#">Fashion</a>
+              </div>
+              <p class="blog-post__text">
+                This week we had the chance of interviewing two creative artists from Germany. These guys are simply amazing at what they do with the European fashion scene and this year at Paris Fashion Week they introduced their new collection.
+              </p>
+              <div class="blog-post__btn-wrapper">
+                <a class="btn" href="#">Read More</a>
+              </div>
+            </article>
+            <article class="blog-post">
+              <img class="blog-post__img" src="img/blog2.jpg" width="570" height="400" alt="Anne Stewart's sunglasses">
+              <h3 class="blog-post__title"><a href="#">Anne Stewart's sunglasses</a></h3>
+              <div class="blog-post__author">
+                By <a href="#">Marry Beard</a> | <a href="#">Trending</a>
+              </div>
+              <p class="blog-post__text">
+                Just amazing! That is how i can describe this person. So creative,so inspiring. I was watching her create in her small studio in London and i was amazed at how every little detail gets included in her creaions. From frames,to glass thickness she blew me away...
+              </p>
+              <div class="blog-post__btn-wrapper">
+                <a class="btn" href="#">Read More</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="subscribe__container">
+          <h2 class="content-header  content-header--hidden">Subscribe</h2>
+          <form action="#" method="post">
+            <label for="email">Subscribe to our newsletter to receive latest news and offers</label>
+            <input id="email" type="email" name="email" placeholder="Email Address">
+            <button class="btn" type="submit" name="subscribe">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__container">
+        <p class="page-footer__copyright">
+          Made with <span class="page-footer__heart-icon">love</span> by <a href="http://webdonut.net/">WebDonut.net</a>
+        </p>
+      </div>
+    </footer>
     <script src="js/script.min.js"></script>
   </body>
 </html>
