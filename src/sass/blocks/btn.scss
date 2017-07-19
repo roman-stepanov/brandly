@@ -1,0 +1,28 @@
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  transition: color 0.5s ease, background-color 0.5s ease;
+
+  &--slider {
+    color: $clr_white;
+    font-family: $fnt_Lato;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 19px;
+    padding: 19px 47px 18px 47px;
+    border: 2px solid $clr_white;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+
+  &--slider:hover,
+  &--slider:focus {
+    color: $clr_black;
+    background-color: $clr_white;
+  }
+}
