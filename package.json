@@ -1,0 +1,15 @@
+{
+  "name": "brandly",
+  "version": "1.0.0",
+  "description": "Главная страница магазина одежды.",
+  "author": "Roman Stepanov",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepanov-roman/brandly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stepanov-roman/brandly/issues"
+  },
+  "homepage": "https://github.com/stepanov-roman/brandly#readme"
+}
