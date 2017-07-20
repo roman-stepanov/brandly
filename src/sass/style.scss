@@ -1,4 +1,5 @@
 @import "global/variables.scss";
+@import "global/mixin.scss";
 @import "global/fonts.scss";
 @import "global/common.scss";
 
@@ -16,3 +17,5 @@
 @import "blocks/trending-item.scss";
 @import "blocks/blog.scss";
 @import "blocks/blog-post.scss";
+@import "blocks/subscribe.scss";
+@import "blocks/subscribe-form.scss";

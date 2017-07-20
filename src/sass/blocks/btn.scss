@@ -1,8 +1,10 @@
 .btn {
   display: inline-block;
   vertical-align: top;
+  font-family: $fnt_OpenSans;
   color: $clr_black;
   font-size: 16px;
+  font-style: normal;
   font-weight: 700;
   line-height: 16px;
   text-align: center;
@@ -39,6 +41,16 @@
   &--slider:hover,
   &--slider:focus {
     color: $clr_black;
+    background-color: $clr_white;
+  }
+
+  &--subscribe {
+    color: $clr_black;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 16px 0px 15px 0px;
+    border-color: $clr_white;
+    width: 270px;
     background-color: $clr_white;
   }
 }

@@ -24,4 +24,8 @@
   &::after {
     bottom: 0px;
   }
+
+  &--hidden {
+    display: none;
+  }
 }

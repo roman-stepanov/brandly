@@ -148,10 +148,12 @@
       <section class="subscribe">
         <div class="subscribe__container">
           <h2 class="content-header  content-header--hidden">Subscribe</h2>
-          <form action="#" method="post">
-            <label for="email">Subscribe to our newsletter to receive latest news and offers</label>
-            <input id="email" type="email" name="email" placeholder="Email Address">
-            <button class="btn" type="submit" name="subscribe">Subscribe</button>
+          <form class="subscribe-form" action="#" method="post">
+            <label for="email" class="subscribe-form__label">Subscribe to our newsletter to receive latest news and offers</label>
+            <div class="subscribe-form__input-wrapper">
+              <input id="email" class="subscribe-form__input" type="email" name="email" placeholder="Email Address">
+            </div>
+            <button class="btn  btn--subscribe" type="submit" name="subscribe">Subscribe</button>
           </form>
         </div>
       </section>

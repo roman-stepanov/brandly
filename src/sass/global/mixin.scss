@@ -1,0 +1,29 @@
+@mixin placeholder {
+
+  &::-webkit-input-placeholder {
+    color: $clr_white;
+    font-family: $fnt_OpenSans;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px;
+    text-transform: uppercase;
+  }
+
+  &::-moz-placeholder {
+    color: $clr_white;
+    font-family: $fnt_OpenSans;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px;
+    text-transform: uppercase;
+  }
+
+  &:-ms-input-placeholder {
+    color: $clr_white;
+    font-family: $fnt_OpenSans;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px;
+    text-transform: uppercase;
+  }
+}
