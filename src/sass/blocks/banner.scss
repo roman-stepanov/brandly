@@ -1,0 +1,74 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 0px 30px 0px;
+  padding: 0;
+  width: 570px;
+  height: 418px;
+  background-color: $clr_gray;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &--autumn {
+    background-image: url('../img/bg-banner1.jpg');
+  }
+
+  &--spirit {
+    background-image: url('../img/bg-banner2.jpg');
+  }
+}
+
+.banner__title {
+  color: $clr_white;
+  font-family: $fnt_Lato;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 54px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  &--uppercase {
+    text-transform: uppercase;
+  }
+}
+
+.banner__link {
+  display: block;
+  position: relative;
+  color: $clr_white;
+  text-decoration: none;
+  transition: color 0.5s ease;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    right: 189px;
+    left: 189px;
+    border-top: 1px solid $clr_white;
+    transition: border-color 0.5s ease;
+  }
+
+  &::before {
+    top: -10px;
+  }
+
+  &::after {
+    bottom: -13px;
+  }
+
+  &:hover,
+  &:focus {
+    color: $clr_red;
+  }
+
+  &:hover::before,
+  &:hover::after,
+  &:focus::before,
+  &:focus::after {
+    border-color: $clr_red;
+  }
+}

@@ -1,0 +1,25 @@
+.latest-products {
+
+}
+
+.latest-products__container {
+  margin: 0 auto;
+  padding: 59px 0px 30px 0px;
+  width: 1170px;
+}
+
+.latest-products__catalog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 60px 0px 0px 0px;
+}
+
+.latest-products__banners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
