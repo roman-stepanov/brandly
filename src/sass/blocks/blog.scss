@@ -1,0 +1,17 @@
+.blog {
+
+}
+
+.blog__container {
+  margin: 0 auto;
+  padding: 60px 0px 60px 0px;
+  width: 1170px;
+}
+
+.blog__posts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 66px 0px 0px 0px;
+}
