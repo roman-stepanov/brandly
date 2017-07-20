@@ -1,0 +1,43 @@
+.page-footer {
+
+}
+
+.page-footer__container {
+  margin: 0 auto;
+  padding: 66px 0px 70px 0px;
+  width: 1170px;
+}
+
+.page-footer__copyright {
+  color: $clr_black;
+  font-family: $fnt_Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+  & a {
+    color: $clr_black;
+    text-decoration: none;
+  }
+
+  & a:hover {
+    color: $clr_red;
+    text-decoration: underline;
+  }
+}
+
+.page-footer__heart-icon {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  width: 20px;
+  height: 16px;
+  background-color: transparent;
+  background-image: url('../img/icons.png');
+  background-repeat: no-repeat;
+  background-position: -35px -5px;
+}
