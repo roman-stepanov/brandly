@@ -1,0 +1,49 @@
+.trending {
+  background-color: $clr_gray;
+  background-image: url('../img/bg-trending.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.trending__container {
+  margin: 0 auto;
+  padding: 59px 0px 58px 0px;
+  width: 1170px;
+}
+
+.trending__items {
+  margin: 0;
+  padding: 60px 0px 58px 0px;
+}
+
+.trending__pagination {
+  font-size: 0;
+  text-align: center;
+}
+
+.nojs .trending__pagination {
+  display: none;
+}
+
+.trending__dot {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 5px 0px 5px;
+  padding: 0;
+  border: 2px solid $clr_darkgray;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: $clr_darkgray;
+  cursor: pointer;
+
+  &--active {
+    margin-right: 3px;
+    margin-left: 3px;
+    width: 12px;
+    height: 12px;
+    border-color: $clr_red;
+    background-color: transparent;
+  }
+}

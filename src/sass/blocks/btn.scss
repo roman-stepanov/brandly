@@ -1,12 +1,27 @@
 .btn {
   display: inline-block;
   vertical-align: top;
+  color: $clr_black;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   margin: 0;
-  padding: 0;
+  padding: 17px 0px 16px 0px;
+  border: 1px solid $clr_black;
+  width: 170px;
+  box-sizing: border-box;
+  background-color: transparent;
+  cursor: pointer;
   transition: color 0.5s ease, background-color 0.5s ease;
+
+  &:hover,
+  &:focus {
+    color: $clr_white;
+    background-color: $clr_black;
+  }
 
   &--slider {
     color: $clr_white;
@@ -14,9 +29,10 @@
     font-size: 18px;
     font-weight: 900;
     line-height: 19px;
-    padding: 19px 47px 18px 47px;
+    padding: 19px 0px 18px 0px;
     border: 2px solid $clr_white;
     border-radius: 5px;
+    width: 200px;
     background-color: transparent;
   }
 

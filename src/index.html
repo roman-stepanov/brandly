@@ -73,27 +73,27 @@
           <h2 class="content-header">Trending Items</h2>
           <div class="trending__items">
             <article class="trending-item">
-              <img class="trending-item__img" src="img/nathan-stewart-jacket.jpg" width="570" height="570" alt="Nathan Stewart Jacket">
+              <a href="#"><img class="trending-item__img" src="img/nathan-stewart-jacket.jpg" width="570" height="570" alt="Nathan Stewart Jacket"></a>
               <div class="trending-item__detail">
                 <header class="trending-item__header">
-                  <h3 class="trending-item__title">Nathan Strewart Jacket</h3>
+                  <h3 class="trending-item__title"><a class="trending-item__link" href="#">Nathan Stewart Jacket</a></h3>
                   <span class="trending-item__collection">Summer/Autumn Collection</span>
                 </header>
                 <p class="trending-item__about">
-                  Classic Nathan Stewart Jacket from his latest collection. This item is loved by many just because of it’s simle style. Simple lines,lovely texture,it suits almost everybody. It comes in six different colors,and all sizes.
+                  Classic Nathan Stewart Jacket from his latest collection. This item is loved by many just because of it’s simle style. Simple lines, lovely texture, it suits almost everybody. It comes in six different colors, and all sizes.
                 </p>
                 <p class="trending-item__tip">
                   <span>Fashion Tip:</span> With this jacket,Nathan Stewart sunglasses go hand in hand!
                 </p>
                 <form class="trending-item__form" action="#" method="post">
-                  <input id="size-m" type="radio" name="size" value="M">
-                  <label for="size-m">M</label>
-                  <input id="size-l" type="radio" name="size" value="L" checked>
-                  <label for="size-l">L</label>
-                  <input id="size-xl" type="radio" name="size" value="XL">
-                  <label for="size-xl">XL</label>
-                  <input id="size-xxl" type="radio" name="size" value="XXL">
-                  <label for="size-xxl">XXL</label>
+                  <input id="size-m" class="trending-item__input-radio" type="radio" name="size" value="M">
+                  <label for="size-m" class="trending-item__label">M</label>
+                  <input id="size-l" class="trending-item__input-radio" type="radio" name="size" value="L" checked>
+                  <label for="size-l" class="trending-item__label">L</label>
+                  <input id="size-xl" class="trending-item__input-radio" type="radio" name="size" value="XL">
+                  <label for="size-xl" class="trending-item__label">XL</label>
+                  <input id="size-xxl" class="trending-item__input-radio" type="radio" name="size" value="XXL">
+                  <label for="size-xxl" class="trending-item__label">XXL</label>
                   <button class="btn" type="submit" name="shop-now">Shop Now</button>
                   <a class="btn" href="#">Size Guide</a>
                 </form>
@@ -103,7 +103,7 @@
           <div class="trending__pagination">
             <span class="trending__dot"></span>
             <span class="trending__dot"></span>
-            <span class="trending__dot"></span>
+            <span class="trending__dot  trending__dot--active"></span>
             <span class="trending__dot"></span>
           </div>
         </div>

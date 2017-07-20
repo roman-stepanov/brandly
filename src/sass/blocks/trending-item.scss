@@ -1,0 +1,131 @@
+.trending-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.trending-item__img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 570px;
+  height: 570px;
+}
+
+.trending-item__detail {
+  margin: 0;
+  padding: 0;
+  width: 570px;
+}
+
+.trending-item__header {
+  position: relative;
+  margin: 0;
+  padding: 24px 0px 26px 0px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid $clr_black;
+    width: 30px;
+  }
+}
+
+.trending-item__title {
+  color: $clr_red;
+  font-family: $fnt_Lato;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0px 0px 20px 0px;
+}
+
+.trending-item__link {
+  color: $clr_red;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.trending-item__collection {
+  color: $clr_darkgray;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 0;
+}
+
+.trending-item__about {
+  color: $clr_darkgray;
+  font-family: $fnt_Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 21px 0px 25px 0px;
+}
+
+.trending-item__tip {
+  color: $clr_darkgray;
+  font-family: $fnt_Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  margin: 0;
+  padding: 0;
+
+  & span {
+    display: block;
+    text-transform: uppercase;
+  }
+}
+
+.trending-item__form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0;
+  margin: 0;
+  padding: 63px 0px 0px 0px;
+  width: 370px;
+}
+
+.trending-item__input-radio {
+  display: none;
+}
+
+.trending-item__label {
+  display: inline-block;
+  vertical-align: top;
+  color: $clr_black;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0px 0px 30px 0px;
+  padding: 17px 0px 16px 0px;
+  border: 1px solid $clr_black;
+  width: 68px;
+  cursor: pointer;
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.trending-item__input-radio:checked + .trending-item__label {
+  color: $clr_white;
+  background-color: $clr_black;
+}
