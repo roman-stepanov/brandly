@@ -1,8 +1,13 @@
 .trending-item {
-  display: flex;
+  // display: flex;
+  display: none;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+
+  &--active {
+    display: flex;
+  }
 }
 
 .trending-item__img {

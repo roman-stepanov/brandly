@@ -1,5 +1,6 @@
 .slide {
-  display: flex;
+  // display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   color: $clr_white;
@@ -14,6 +15,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+  &--active {
+    display: flex;
   }
 }
 
